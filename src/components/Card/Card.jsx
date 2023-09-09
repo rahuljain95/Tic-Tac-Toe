@@ -1,5 +1,6 @@
 import Icon from '../Icon/Icon';
 import './Card.css';
+
 function Card ({gameEnd, player, onPlay, index }){
     let icon = <Icon />
     if (player == 'X'){
@@ -14,4 +15,5 @@ function Card ({gameEnd, player, onPlay, index }){
         </div>
     )
 }
+
 export default Card;

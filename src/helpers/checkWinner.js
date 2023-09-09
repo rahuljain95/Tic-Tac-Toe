@@ -18,4 +18,5 @@ function isWinner(board,symbol) {
 
     return "";
 }
+
 export default isWinner;
